@@ -4,10 +4,10 @@ var Secrets = require("./secrets.js");
 
 var secrets = new Secrets();
 var client = new Twitter({
-	consumer_key: secrets.getConsumerKey(),
-	consumer_secret: secrets.getConsumerSecret(),
-	access_token_key: secrets.getAccessTokenKey(),
-	access_token_secret: secrets.getAccessTokenSecret()
+	consumer_key: secrets.CONSUMER_KEY,
+	consumer_secret: secrets.CONSUMER_SECRET,
+	access_token_key: secrets.ACCESS_TOKEN_KEY,
+	access_token_secret: secrets.ACCESS_TOKEN_SECRET
 });
 
 var timeout = (1000 * 60 * 60) * 2; //2 hours in miliseconds

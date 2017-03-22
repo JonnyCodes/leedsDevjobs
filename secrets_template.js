@@ -2,21 +2,10 @@
 //It's added to the gitignore so it can't be commited
 
 // function secrets() {
-//   this.getConsumerKey = function() {
-//     return 'PUT YOUR CONSUMER KEY HERE';
-//   }
-
-//   this.getConsumerSecret = function() {
-//   	return 'PUT YOUR CONSUMER SECRET HERE';
-//   }
-
-//   this.getAccessTokenKey = function() {
-//     return 'PUT YOUR ACCESS TOKEN KEY HERE';
-//   }
-
-//   this.getAccessTokenSecret = function() {
-//     return 'PUT YOUR ACCESS TOKEN SECRET HERE';
-//   }
+//   this.CONSUMER_KEY = '';
+//   this.CONSUMER_SECRET = '';
+//   this.ACCESS_TOKEN_KEY = '';
+//   this.ACCESS_TOKEN_SECRET = '';
 // }
 
 // module.exports = secrets;
